@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 import ReactLogo from '../assets/img/logo512.png'
 import JavaLogo from'../assets/img/java-logo.png'
@@ -11,6 +11,9 @@ import RLogo from '../assets/img/R_logo.png'
 import CSharpLogo from '../assets/img/c-sharp-800x800.png';
 import SpringbootLogo from '../assets/img/spring-boot-logo_full.png'
 import UnityLogo from '../assets/img/unityengine.png'
+import awsLogo from '../assets/img/awsLogo.png'
+import firebaseLogo from '../assets/img/firebaseLogo.png'
+import flaskLogo from '../assets/img/flaskLogo.png'
 
 export const Projects = () => {
   const [isVisible, setVisible] = React.useState(true);
@@ -29,7 +32,7 @@ export const Projects = () => {
           <div className="project-container">
               <div className="project-text">
                 <h1>Projects</h1>
-                <p>An assortment of projects I have created throughtout my years of developing. Your can see more projects on my GitHub (Github API implementation coming soon :)</p>
+                <p>An assortment of projects I have created throughtout my years of developing. Your can see more of my projects on my GitHub.</p>
               </div>
               <div className="project-boxes">
                 <div className="project-box">
@@ -37,6 +40,7 @@ export const Projects = () => {
                   <p>A social and logging platform for movie-goers and cinephiles🎥</p>
                   <div className='languages'>
                     <img className='language-icons' src={JavaScriptLogo}></img>
+                    <img className='language-icons' src={firebaseLogo}></img>
                     <img className='language-icons' src={ReactLogo}></img>
                     <img className='language-icons' src={HTMLLogo}></img>
                     <img className='language-icons' src={CSSLogo}></img>
@@ -46,6 +50,23 @@ export const Projects = () => {
                     <a href='https://github.com/amerissa007/Cinematd'><button className='github-button'>GitHub</button></a>
                   </div>
                 </div>
+
+                <div className="project-box">
+                  <h2>Twitter Clone</h2>
+                  <p>A social media platform that allows you to reply and message other users#️⃣</p>
+                  <div className='languages'>
+                    <img className='language-icons' src={PythonLogo}></img>
+                    <img className='language-icons' src={awsLogo}></img>
+                    <img className='language-icons' src={flaskLogo}></img>
+                    <img className='language-icons' src={JavaScriptLogo}></img>
+                    <img className='language-icons' src={HTMLLogo}></img>
+                    <img className='language-icons' src={CSSLogo}></img>                  
+                    </div>
+                  <div className='buttons'>
+                    <a href='https://github.com/Sajal000/TwitterClone'><button className='github-button'>GitHub</button></a>
+                  </div>
+                </div>
+
                 <div className="project-box">
                   <h2>MTA Route Planning</h2>
                   <p>A Java program that dynamically finds you the optimal route within the MTA Subway System🚂</p>
@@ -56,6 +77,7 @@ export const Projects = () => {
                     <a href='https://github.com/amerissa007/MTA-Route-Planning-Project'><button className='github-button'>GitHub</button></a>
                   </div>
                 </div>
+
                 <div className="project-box">
                   <h2>Brooklyn Food Drive</h2>
                   <p>A website I created for a fictional food drive in Brooklyn, New York🤝</p>
@@ -67,6 +89,7 @@ export const Projects = () => {
                     <a href='https://github.com/amerissa007/Food-Drive-Project'><button className='github-button'>GitHub</button></a>
                   </div>
                 </div>
+
                 <div className="project-box">
                   <h2>Video Game Development</h2>
                   <p>An assortment of video games I created ranging from 2D to 3D games🎮</p>
@@ -78,7 +101,8 @@ export const Projects = () => {
                     <a href='https://issaamer.itch.io/'><button className='github-button'>itch.io</button></a>
                   </div>
                 </div>
-              </div>
+          
+            </div>
           </div>
         </div>
       </section>

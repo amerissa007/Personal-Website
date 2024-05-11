@@ -6,6 +6,7 @@ import ParticlesComponent from './components/Particles';
 import Banner from './components/Banner'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Music from './components/Music'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Music />
 
       <ParticlesComponent id="particles"/>
       

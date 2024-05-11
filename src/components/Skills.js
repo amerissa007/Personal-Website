@@ -11,7 +11,9 @@ import RLogo from '../assets/img/R_logo.png'
 import CSharpLogo from '../assets/img/c-sharp-800x800.png';
 import SpringbootLogo from '../assets/img/spring-boot-logo_full.png'
 import UnityLogo from '../assets/img/unityengine.png'
-
+import awsLogo from '../assets/img/awsLogo.png'
+import firebaseLogo from '../assets/img/firebaseLogo.png'
+import flaskLogo from '../assets/img/flaskLogo.png'
 
 export const Skills = () => {
   const [isVisible, setVisible] = React.useState(true);
@@ -45,6 +47,9 @@ export const Skills = () => {
                   <img className='skill-image' src ={SASSLogo} />
                   <img className='skill-image' src ={ReactLogo} />
                   <img className='skill-image' src ={SpringbootLogo} />
+                  <img className='skill-image' src ={awsLogo} />
+                  <img className='skill-image' src ={firebaseLogo} />
+                  <img className='skill-image' src ={flaskLogo} />
 
                 </div>
 
@@ -60,6 +65,9 @@ export const Skills = () => {
                   <img className='skill-image' src ={SASSLogo} />
                   <img className='skill-image' src ={ReactLogo} />
                   <img className='skill-image' src ={SpringbootLogo} />
+                  <img className='skill-image' src ={awsLogo} />
+                  <img className='skill-image' src ={firebaseLogo} />
+                  <img className='skill-image' src ={flaskLogo} />
 
                 </div>
               </div>

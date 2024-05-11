@@ -552,6 +552,50 @@ github-button :active {
   transform: translateY(5px);
   transition: 200ms;
 }
+/*****************MUSIC CSS*******************/
+
+.music-container{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin:150px auto;
+  width:70%; 
+  background-color: #1c1c1c; 
+  /* padding: 20px; */
+  border-radius: 50px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 1220px){
+  .music-container{
+     width: auto;
+     border-radius: 0%;
+  }
+}
+.music-container h1{
+  color: white;
+  font-size: 42px;
+  margin: 15px;
+  align-items: center;
+
+}
+.music-text{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.music-text p{
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+
+}
 
 
 
