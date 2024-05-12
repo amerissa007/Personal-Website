@@ -4,10 +4,10 @@ import logo from '../assets/img/amerlogo.svg';
 import navIcon1 from '../assets/img/icons8-linkedin.svg';
 import navIcon2 from '../assets/img/icons8-github.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import navIcon4 from '../assets/img/icons8-outlook.svg';
+// import navIcon4 from '../assets/img/icons8-outlook.svg';
 import itchio from '../assets/img/itchiologo.png'
 
-import { HashLink } from 'react-router-hash-link';
+// import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";

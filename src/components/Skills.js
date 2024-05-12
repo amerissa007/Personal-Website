@@ -1,5 +1,4 @@
-import React, { useRef } from 'react';
-
+import React from 'react';
 import ReactLogo from '../assets/img/logo512.png'
 import JavaLogo from'../assets/img/java-logo.png'
 import JavaScriptLogo from '../assets/img/JavaScript-Logo-2048x1280.png'
@@ -23,7 +22,8 @@ export const Skills = () => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     });
     observer.observe(domRef.current);
-    return () => observer.unobserve(domRef.current);
+    const currentRef = domRef.current; // Create a variable to hold the current ref value
+    return () => observer.unobserve(currentRef); // Use the variable in the cleanup function
   }, []);
     
     return (

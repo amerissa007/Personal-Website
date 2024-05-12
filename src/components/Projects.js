@@ -1,5 +1,4 @@
 import React from 'react';
-
 import ReactLogo from '../assets/img/logo512.png'
 import JavaLogo from'../assets/img/java-logo.png'
 import JavaScriptLogo from '../assets/img/JavaScript-Logo-2048x1280.png'
@@ -7,13 +6,14 @@ import PythonLogo from '../assets/img/python.png'
 import HTMLLogo from '../assets/img/6024bc5746d7436c727825dc4fc23c22-html-programming-language-icon-by-vexels.png'
 import CSSLogo from '../assets/img/css-3-logo-svgrepo-com.svg'
 import SASSLogo from '../assets/img/SassLogo.png'
-import RLogo from '../assets/img/R_logo.png'
 import CSharpLogo from '../assets/img/c-sharp-800x800.png';
-import SpringbootLogo from '../assets/img/spring-boot-logo_full.png'
 import UnityLogo from '../assets/img/unityengine.png'
 import awsLogo from '../assets/img/awsLogo.png'
 import firebaseLogo from '../assets/img/firebaseLogo.png'
 import flaskLogo from '../assets/img/flaskLogo.png'
+
+// import RLogo from '../assets/img/R_logo.png'
+// import SpringbootLogo from '../assets/img/spring-boot-logo_full.png'
 
 export const Projects = () => {
   const [isVisible, setVisible] = React.useState(true);
@@ -23,7 +23,8 @@ export const Projects = () => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     });
     observer.observe(domRef.current);
-    return () => observer.unobserve(domRef.current);
+    const currentRef = domRef.current; // Create a variable to hold the current ref value
+    return () => observer.unobserve(currentRef); // Use the variable in the cleanup function
   }, []);
     
     return (
