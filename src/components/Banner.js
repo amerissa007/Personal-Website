@@ -1,5 +1,5 @@
 import ProfilePic from '../assets/img/profilepicture.jpeg'
-import React, { useRef } from 'react';
+import React from 'react';
 
 export const Banner = () => {
     const [isVisible, setVisible] = React.useState(true);
@@ -22,7 +22,7 @@ export const Banner = () => {
                         </center>
                     </div>
                     <div className='picture-border'>
-                        <img className="pfp" src={ProfilePic} alt='Profile Picture'></img>
+                        <img className="pfp" src={ProfilePic} alt='PictureOfMe'></img>
                     </div>
                 </div>
             </div>
