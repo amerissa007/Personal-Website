@@ -54,10 +54,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/amerissa/"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/amerissa007"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/_issa.wav/"><img src={navIcon3} alt="" /></a>
-                <a href="https://issaamer.itch.io/"><img src={itchio} alt="" /></a>
+                <a href="https://www.linkedin.com/in/amerissa/"><img src={navIcon1} alt="LinkedIn" /></a>
+                <a href="https://github.com/amerissa007"><img src={navIcon2} alt="GitHub" /></a>
+                <a href="https://www.instagram.com/_issa.wav/"><img src={navIcon3} alt="Instagram" /></a>
+                <a href="https://issaamer.itch.io/"><img src={itchio} alt="Itchio" /></a>
               </div>
               <a href="mailto:amerissa@outlook.com"><button className="vvd"><span>Let’s Connect</span></button></a>
             </span>

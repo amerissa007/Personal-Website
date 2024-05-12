@@ -39,12 +39,12 @@ export const Projects = () => {
                   <h2>Cinematd</h2>
                   <p>A social and logging platform for movie-goers and cinephiles🎥</p>
                   <div className='languages'>
-                    <img className='language-icons' src={JavaScriptLogo}></img>
-                    <img className='language-icons' src={firebaseLogo}></img>
-                    <img className='language-icons' src={ReactLogo}></img>
-                    <img className='language-icons' src={HTMLLogo}></img>
-                    <img className='language-icons' src={CSSLogo}></img>
-                    <img className='language-icons' src={SASSLogo}></img>
+                    <img className='language-icons' src={JavaScriptLogo}alt='JavaScript'></img>
+                    <img className='language-icons' src={firebaseLogo}alt='Firebase'></img>
+                    <img className='language-icons' src={ReactLogo}alt='React'></img>
+                    <img className='language-icons' src={HTMLLogo}alt='HTML'></img>
+                    <img className='language-icons' src={CSSLogo}alt='CSS'></img>
+                    <img className='language-icons' src={SASSLogo}alt='SASS'></img>
                   </div>
                   <div className='buttons'>
                     <a href='https://github.com/amerissa007/Cinematd'><button className='github-button'>GitHub</button></a>
@@ -55,12 +55,12 @@ export const Projects = () => {
                   <h2>Twitter Clone</h2>
                   <p>A social media platform that allows you to reply and message other users#️⃣</p>
                   <div className='languages'>
-                    <img className='language-icons' src={PythonLogo}></img>
-                    <img className='language-icons' src={awsLogo}></img>
-                    <img className='language-icons' src={flaskLogo}></img>
-                    <img className='language-icons' src={JavaScriptLogo}></img>
-                    <img className='language-icons' src={HTMLLogo}></img>
-                    <img className='language-icons' src={CSSLogo}></img>                  
+                    <img className='language-icons' src={PythonLogo}alt='Python'></img>
+                    <img className='language-icons' src={awsLogo}alt='AWS'></img>
+                    <img className='language-icons' src={flaskLogo}alt='Flask'></img>
+                    <img className='language-icons' src={JavaScriptLogo}alt='JavaScript'></img>
+                    <img className='language-icons' src={HTMLLogo}alt='HTML'></img>
+                    <img className='language-icons' src={CSSLogo}alt='CSS'></img>                  
                     </div>
                   <div className='buttons'>
                     <a href='https://github.com/Sajal000/TwitterClone'><button className='github-button'>GitHub</button></a>
@@ -71,7 +71,7 @@ export const Projects = () => {
                   <h2>MTA Route Planning</h2>
                   <p>A Java program that dynamically finds you the optimal route within the MTA Subway System🚂</p>
                   <div className='languages'>
-                    <img className='language-icons' src={JavaLogo}></img>
+                    <img className='language-icons' src={JavaLogo} alt='Java'></img>
                   </div>
                   <div className='buttons'>
                     <a href='https://github.com/amerissa007/MTA-Route-Planning-Project'><button className='github-button'>GitHub</button></a>
@@ -82,8 +82,8 @@ export const Projects = () => {
                   <h2>Brooklyn Food Drive</h2>
                   <p>A website I created for a fictional food drive in Brooklyn, New York🤝</p>
                   <div className='languages'>
-                    <img className='language-icons' src={HTMLLogo}></img>
-                    <img className='language-icons' src={CSSLogo}></img>
+                    <img className='language-icons' src={HTMLLogo} alt='HTML'></img>
+                    <img className='language-icons' src={CSSLogo} alt='CSS'></img>
                   </div>
                   <div className='buttons'>
                     <a href='https://github.com/amerissa007/Food-Drive-Project'><button className='github-button'>GitHub</button></a>
@@ -94,8 +94,8 @@ export const Projects = () => {
                   <h2>Video Game Development</h2>
                   <p>An assortment of video games I created ranging from 2D to 3D games🎮</p>
                   <div className='languages'>
-                    <img className='language-icons' src={CSharpLogo}></img>
-                    <img className='language-icons' src={UnityLogo}></img>
+                    <img className='language-icons' src={CSharpLogo} alt='CSharp'></img>
+                    <img className='language-icons' src={UnityLogo} alt='Unity'></img>
                   </div>
                   <div className='buttons'>
                     <a href='https://issaamer.itch.io/'><button className='github-button'>itch.io</button></a>

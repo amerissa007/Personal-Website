@@ -22,7 +22,7 @@ export const Banner = () => {
                         </center>
                     </div>
                     <div className='picture-border'>
-                        <img className="pfp" src={ProfilePic}></img>
+                        <img className="pfp" src={ProfilePic} alt='Profile Picture'></img>
                     </div>
                 </div>
             </div>

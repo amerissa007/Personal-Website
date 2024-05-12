@@ -36,38 +36,38 @@ export const Skills = () => {
               </div>
               <div className='skills-logo-section'>
                 <div className='skills-carousel'>
-                  <img className='skill-image' src ={JavaLogo} />
-                  <img className='skill-image' src ={CSharpLogo} />
-                  <img className='skill-image' src ={UnityLogo} />
-                  <img className='skill-image' src ={PythonLogo} />
-                  <img className='skill-image' src ={RLogo} />
-                  <img className='skill-image' src ={JavaScriptLogo} />
-                  <img className='skill-image' src ={HTMLLogo} />
-                  <img className='skill-image' src ={CSSLogo} />
-                  <img className='skill-image' src ={SASSLogo} />
-                  <img className='skill-image' src ={ReactLogo} />
-                  <img className='skill-image' src ={SpringbootLogo} />
-                  <img className='skill-image' src ={awsLogo} />
-                  <img className='skill-image' src ={firebaseLogo} />
-                  <img className='skill-image' src ={flaskLogo} />
+                  <img className='skill-image' src={JavaLogo} alt='Java' />
+                  <img className='skill-image' src={CSharpLogo} alt='C#' />
+                  <img className='skill-image' src={UnityLogo} alt='Unity' />
+                  <img className='skill-image' src={PythonLogo} alt='Python' />
+                  <img className='skill-image' src={RLogo} alt='R' />
+                  <img className='skill-image' src={JavaScriptLogo} alt='JavaScript' />
+                  <img className='skill-image' src={HTMLLogo} alt='HTML' />
+                  <img className='skill-image' src={CSSLogo} alt='CSS' />
+                  <img className='skill-image' src={SASSLogo} alt='SASS' />
+                  <img className='skill-image' src={ReactLogo} alt='React' />
+                  <img className='skill-image' src={SpringbootLogo} alt='Spring Boot' />
+                  <img className='skill-image' src={awsLogo} alt='AWS' />
+                  <img className='skill-image' src={firebaseLogo} alt='Firebase' />
+                  <img className='skill-image' src={flaskLogo} alt='Flask' />
 
                 </div>
 
                 <div className='skills-carousel'>
-                  <img className='skill-image' src ={JavaLogo} />
-                  <img className='skill-image' src ={CSharpLogo} />
-                  <img className='skill-image' src ={UnityLogo} />
-                  <img className='skill-image' src ={PythonLogo} />
-                  <img className='skill-image' src ={RLogo} />
-                  <img className='skill-image' src ={JavaScriptLogo} />
-                  <img className='skill-image' src ={HTMLLogo} />
-                  <img className='skill-image' src ={CSSLogo} />
-                  <img className='skill-image' src ={SASSLogo} />
-                  <img className='skill-image' src ={ReactLogo} />
-                  <img className='skill-image' src ={SpringbootLogo} />
-                  <img className='skill-image' src ={awsLogo} />
-                  <img className='skill-image' src ={firebaseLogo} />
-                  <img className='skill-image' src ={flaskLogo} />
+                  <img className='skill-image' src={JavaLogo} alt='Java' />
+                  <img className='skill-image' src={CSharpLogo} alt='C#' />
+                  <img className='skill-image' src={UnityLogo} alt='Unity' />
+                  <img className='skill-image' src={PythonLogo} alt='Python' />
+                  <img className='skill-image' src={RLogo} alt='R' />
+                  <img className='skill-image' src={JavaScriptLogo} alt='JavaScript' />
+                  <img className='skill-image' src={HTMLLogo} alt='HTML' />
+                  <img className='skill-image' src={CSSLogo} alt='CSS' />
+                  <img className='skill-image' src={SASSLogo} alt='SASS' />
+                  <img className='skill-image' src={ReactLogo} alt='React' />
+                  <img className='skill-image' src={SpringbootLogo} alt='Spring Boot' />
+                  <img className='skill-image' src={awsLogo} alt='AWS' />
+                  <img className='skill-image' src={firebaseLogo} alt='Firebase' />
+                  <img className='skill-image' src={flaskLogo} alt='Flask' />
 
                 </div>
               </div>
