@@ -1,5 +1,5 @@
 {
-  "homepage":"http://amerissa007.github.io/Personal-Website",
+  "homepage":"issaamer.com",
   "name": "personal-website2",
   "version": "0.1.0",
   "private": true,
@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
-    "@babel/plugin-proposal-private-property-in-object":"7.21.11"
+    "@babel/plugin-proposal-private-property-in-object"
   }
 
 }
