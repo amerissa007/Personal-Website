@@ -8,8 +8,9 @@ export const Banner = () => {
       const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => setVisible(entry.isIntersecting));
       });
-      observer.observe(domRef.current);
-      return () => observer.unobserve(domRef.current);
+      const currentRef = domRef.current; // Create a variable and assign it the value of domRef.current
+      observer.observe(currentRef);
+      return () => observer.unobserve(currentRef); // Use the variable in the cleanup function
     }, []);
     return (
         <section className='banner' id='home'>
