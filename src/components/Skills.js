@@ -50,9 +50,7 @@ export const Skills = () => {
                   <img className='skill-image' src={awsLogo} alt='AWS' />
                   <img className='skill-image' src={firebaseLogo} alt='Firebase' />
                   <img className='skill-image' src={flaskLogo} alt='Flask' />
-
                 </div>
-
                 <div className='skills-carousel'>
                   <img className='skill-image' src={JavaLogo} alt='Java' />
                   <img className='skill-image' src={CSharpLogo} alt='C#' />

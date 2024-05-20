@@ -432,7 +432,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   justify-content: center; */
   display: inline-block ;
-  animation: 15s slide infinite linear;
+  animation: 60s slide infinite linear;
 }
 .skill-image {
   width: 190px;
@@ -540,6 +540,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   cursor: pointer;
   margin: 15px;
 }
+.github-button:hover {
+  background-color: gray;
+  color: white;
+  box-shadow: 0 0 10px #1c1c1c;
+}
 
 github-button :hover {
   box-shadow:grey;
@@ -595,6 +600,36 @@ github-button :active {
   font-size: 20px;
   text-align: center;
 
+}
+.follow-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex-direction: column;
+}
+.soundcloud-profile-picture{
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+  margin: 20px;
+  border: 5px solid white;
+}
+.follow-soundcloud-button {
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: white;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  color: black;
+  cursor: pointer;
+  margin: 15px;
+}
+.follow-soundcloud-button:hover {
+  background-color: #ff5500;
+  color: white;
 }
 
 
