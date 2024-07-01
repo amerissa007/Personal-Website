@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.367d6029.css",
-    "main.js": "/portfolio-website/static/js/main.bd015003.js",
+    "main.css": "/portfolio-website/static/css/main.942ac62a.css",
+    "main.js": "/portfolio-website/static/js/main.7565ac84.js",
     "static/js/1927.514c6c71.chunk.js": "/portfolio-website/static/js/1927.514c6c71.chunk.js",
     "static/js/7590.69d95fb1.chunk.js": "/portfolio-website/static/js/7590.69d95fb1.chunk.js",
     "static/js/6725.cdc21bc1.chunk.js": "/portfolio-website/static/js/6725.cdc21bc1.chunk.js",
@@ -73,10 +73,11 @@
     "static/js/4290.f8704243.chunk.js": "/portfolio-website/static/js/4290.f8704243.chunk.js",
     "static/media/python.png": "/portfolio-website/static/media/python.2dfe992c8ec71825b301.png",
     "static/media/R_logo.png": "/portfolio-website/static/media/R_logo.f546f3554737312f557f.png",
-    "static/media/issa_pfp.png": "/portfolio-website/static/media/issa_pfp.f8b2afc0ba9b870ac4b4.png",
+    "static/media/issa_pfp.png": "/portfolio-website/static/media/issa_pfp.e31c32c7f27fb9ab89b6.png",
     "static/media/amerlogo.svg": "/portfolio-website/static/media/amerlogo.fced002159434a27e1c6bb0be3efb89e.svg",
     "static/media/c-sharp-800x800.png": "/portfolio-website/static/media/c-sharp-800x800.372929db864d8da69101.png",
     "static/media/JavaScript-Logo-2048x1280.png": "/portfolio-website/static/media/JavaScript-Logo-2048x1280.2fe71b42505ecc37194f.png",
+    "static/media/flstudio_logo.png": "/portfolio-website/static/media/flstudio_logo.a31876ba98016d764ea4.png",
     "static/media/java-logo.png": "/portfolio-website/static/media/java-logo.c16a7d4338f6b318a1eb.png",
     "static/media/-html-programming-language-icon-by-vexels.png": "/portfolio-website/static/media/6024bc5746d7436c727825dc4fc23c22-html-programming-language-icon-by-vexels.9107c79768195dcaab8c.png",
     "static/media/SassLogo.png": "/portfolio-website/static/media/SassLogo.9edbefb67912b9e809e5.png",
@@ -94,8 +95,8 @@
     "static/media/css-3-logo-svgrepo-com.svg": "/portfolio-website/static/media/css-3-logo-svgrepo-com.62dd7a7609a4f5253941ee34c348b64e.svg",
     "static/media/icons8-linkedin.svg": "/portfolio-website/static/media/icons8-linkedin.4849f84a7e76fde3e7508ef828cf6d7b.svg",
     "index.html": "/portfolio-website/index.html",
-    "main.367d6029.css.map": "/portfolio-website/static/css/main.367d6029.css.map",
-    "main.bd015003.js.map": "/portfolio-website/static/js/main.bd015003.js.map",
+    "main.942ac62a.css.map": "/portfolio-website/static/css/main.942ac62a.css.map",
+    "main.7565ac84.js.map": "/portfolio-website/static/js/main.7565ac84.js.map",
     "1927.514c6c71.chunk.js.map": "/portfolio-website/static/js/1927.514c6c71.chunk.js.map",
     "7590.69d95fb1.chunk.js.map": "/portfolio-website/static/js/7590.69d95fb1.chunk.js.map",
     "6725.cdc21bc1.chunk.js.map": "/portfolio-website/static/js/6725.cdc21bc1.chunk.js.map",
@@ -167,7 +168,7 @@
     "4290.f8704243.chunk.js.map": "/portfolio-website/static/js/4290.f8704243.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.367d6029.css",
-    "static/js/main.bd015003.js"
+    "static/css/main.942ac62a.css",
+    "static/js/main.7565ac84.js"
   ]
 }
