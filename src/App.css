@@ -484,7 +484,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-wrap: wrap;
 }
 @media screen and (max-width: 1220px){
-  ..project-box{
+  .project-box{
      width: 100%;
      height: auto;
      border-radius: 0%;
@@ -629,6 +629,24 @@ github-button :active {
 }
 .follow-soundcloud-button:hover {
   background-color: #ff5500;
+  color: white;
+}
+
+.follow-youtube-button {
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: white;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  color: black;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.follow-youtube-button:hover {
+  background-color: #FF0000;
   color: white;
 }
 

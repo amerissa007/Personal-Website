@@ -13,6 +13,7 @@ import UnityLogo from '../assets/img/unityengine.png'
 import awsLogo from '../assets/img/awsLogo.png'
 import firebaseLogo from '../assets/img/firebaseLogo.png'
 import flaskLogo from '../assets/img/flaskLogo.png'
+import flstudioLogo from '../assets/img/flstudio_logo.png'
 
 export const Skills = () => {
   const [isVisible, setVisible] = React.useState(true);
@@ -50,6 +51,8 @@ export const Skills = () => {
                   <img className='skill-image' src={awsLogo} alt='AWS' />
                   <img className='skill-image' src={firebaseLogo} alt='Firebase' />
                   <img className='skill-image' src={flaskLogo} alt='Flask' />
+                  <img className='skill-image' src={flstudioLogo} alt='FLStudio' />
+
                 </div>
                 <div className='skills-carousel'>
                   <img className='skill-image' src={JavaLogo} alt='Java' />
@@ -66,6 +69,8 @@ export const Skills = () => {
                   <img className='skill-image' src={awsLogo} alt='AWS' />
                   <img className='skill-image' src={firebaseLogo} alt='Firebase' />
                   <img className='skill-image' src={flaskLogo} alt='Flask' />
+                  <img className='skill-image' src={flstudioLogo} alt='FLStudio' />
+
 
                 </div>
               </div>

@@ -23,12 +23,15 @@ export const Music = () => {
                 <div className="music-container">
                     <div className="music-text">
                         <h1>My Music</h1>
-                        <p>Check out the songs I've produced! Music production is a hobby I really enjoy and have been doing for years. If you like what you hear, feel free to support me on SoundCloud.</p>
+                        <p>Check out the songs I've produced! Music production is a hobby I really enjoy and have been doing for years. If you like what you hear, feel free to support me on the platforms below.</p>
                     </div>
                     <div className="follow-profile">
                         <img className="soundcloud-profile-picture" src={soundcloudProfilePicture} alt="SoundCloud Profile Picture" />   
                         <a href="https://soundcloud.com/iiissa" target="_blank" rel="noreferrer">
                             <button className="follow-soundcloud-button"><span>Follow Me on SoundCloud</span></button>
+                        </a>
+                        <a href='https://www.youtube.com/channel/UC-3oKq-Zbk0nzn3L1S_Kc2A' target="_blank" rel="noreferrer">
+                            <button className="follow-youtube-button"><span>Subscribe to My YouTube Channel</span></button>
                         </a>
                     </div>
                     <iframe title="My Music" width="70%" height="700" scrolling="no" frameborder="no" allow="autoplay"
